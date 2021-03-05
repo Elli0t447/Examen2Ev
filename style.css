@@ -1,0 +1,179 @@
+/* *
+{
+    outline: 2px solid red;
+} */
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(218, 142, 71);
+    font-family: sans-serif;
+}
+
+h1
+{
+    font-family: 'Akaya Kanadaka', cursive;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px red;
+    margin-bottom: 5vh;
+}
+
+nav
+{
+    border: 2px solid rgb(255, 102, 0);
+    background-color: rgba(235, 196, 88, 0.863);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > a
+{
+    border: 2px solid orangered;
+    background-color: rgb(235, 126, 53);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+nav > a:hover
+{
+    background-color: rgb(255, 38, 0);
+}
+
+main
+{
+    position: relative;
+    margin: 0 auto;
+    height: 68vh;
+    background-color: rgba(240, 210, 130, 0.863);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 260px;
+}
+
+.nar
+{
+    position: absolute;
+    top: 0.1em;
+    width: 100%;
+    height: 1.7em;
+    background-image: url("img/naranja2.svg");
+    background-repeat: repeat;
+}
+
+.nar-2
+{
+    position: absolute;
+    height: 2.2em;
+    top: 30.5em;
+}
+
+.sec-1
+{
+    background-color: rgb(224, 216, 101);
+    border: 3px solid rgb(141, 141, 47);
+    color: rgb(182, 182, 53);
+    font-size: 1.3em;
+    width: 35vw;
+    height: 17vw;
+    letter-spacing: 5px;
+}
+
+.sec-1:hover
+{
+    z-index: 100;
+}
+
+.sec-2
+{
+    background-color: skyblue;
+    border: 3px solid rgb(73, 144, 172);
+    color: rgb(189, 120, 55);
+    width: 35vw;
+    height: 17vw;
+    text-align: right;
+}
+
+.sec-2:hover
+{
+    z-index: 100;
+}
+
+.sec-3
+{
+    position: absolute;
+    border: 3px solid red;
+    top: 2.4em;
+    color: red;
+    text-decoration: underline;
+    background-color: rgb(218, 142, 71);
+    width: 35vw;
+    height: 15vw;
+    font-size: 1.1em;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+
+span
+{
+    text-decoration: none;
+}
+.sec-3:hover
+{
+    z-index: 100;
+}
+
+footer
+{
+    position: relative;
+    top: 2em;
+    color: orangered;
+    font-size: 1.5rem;
+    background-color: rgb(240, 202, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    height: 8vh;
+}
+
+.nosotros
+{
+    background-color: rgb(218, 142, 71);
+    color: white;
+    height: 15vh;
+    width: 30vw;
+}
+
+.nosotros-main
+{
+    gap: 0;
+    background-color: rgba(240, 220, 134, 0.863);
+}
+
+.nosotros-footer
+{
+    position: relative;
+    background-color: rgb(231, 231, 88);
+    top: 0;
+    height: 100%;
+}
+
+.nosotros-nav
+{
+    background-color: rgb(238, 238, 135);
+}
